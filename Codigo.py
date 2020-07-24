@@ -3,9 +3,9 @@ from email.mime.multipart import MIMEMultipart
 import smtplib, ssl
 
 #correo
-username = ('')
+username = input('')
 #password correo
-password = ('')
+password = input('')
 
 #correo de remitente
 recipient = ('')
